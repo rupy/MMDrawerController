@@ -76,6 +76,7 @@
     else {
         [self.navigationController.navigationBar setTintColor:barColor];
     }
+    self.navigationController.navigationBar.translucent = NO;
 
 
     NSDictionary *navBarTitleDict;
